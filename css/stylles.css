@@ -1,0 +1,199 @@
+body {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  background: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  width: 1200px;
+  margin: auto;
+}
+
+.main-content {
+  padding-left: 88px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 40px;
+}
+
+.summary {
+  margin-bottom: 40px;
+}
+.position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.content-titles {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.projects-container {
+  margin-bottom: 40px;
+}
+.projects-items {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  list-style: decimal;
+}
+.projects-list {
+  padding-left: 24px;
+}
+.projects-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
+.projects-tech {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.experience-container {
+  margin-bottom: 40px;
+}
+.company-container {
+  margin-bottom: 8px;
+}
+.company-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.company {
+  color: #6096ff;
+}
+.company-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.experience-list {
+  padding-left: 25px;
+}
+.experience-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  list-style: disc;
+}
+.education-container {
+  margin-bottom: 40px;
+}
+.education-university {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6096ff;
+  margin-bottom: 8px;
+}
+.education-specialty {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.education-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  background: #dfeeff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.sidebar-content {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.side-titles {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+.contact-container {
+  margin-bottom: 40px;
+}
+.contacts-items {
+  align-items: center;
+  display: flex;
+}
+.contact-links {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+  margin-left: 6px;
+}
+.skills-container {
+  margin-bottom: 40px;
+}
+.skills-list {
+  padding-left: 19px;
+}
+.skills-items {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  list-style: disc;
+}
