@@ -154,6 +154,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .sidebar-content {
   padding-top: 40px;
   padding-left: 40px;
@@ -196,4 +197,77 @@ body {
   line-height: 24px;
   color: #161d2a;
   list-style: disc;
+}
+@media screen and (max-width: 1270px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .main-content {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+  }
+  .photo {
+    width: 275px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+  .sidebar {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .sidebar-content {
+    padding-right: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skills-rows {
+    display: flex;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    padding: 0;
+  }
+  .sidebar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo {
+    margin-bottom: 20px;
+    width: 350px;
+  }
+  .sidebar-content {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .skills-rows {
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  .sidebar-content {
+    align-items: flex-start;
+    padding-left: 20px;
+  }
 }
